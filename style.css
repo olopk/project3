@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;  
+}
+body{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -17px;
+    overflow-y: scroll;
+}
+.navbar{
+    width: 100vw;
+    height: 115px;
+    background-color: #fff;
+    padding: 50px;
+}
+.logo{
+    width: 50%;
+    float: left;
+}
+.logo__icon-bg{
+    background-color: #7cc576;
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
+    float: left;
+    margin-left: 30%;
+}
+.logo__icon-bg i{
+    font-size: 15px;
+    margin-top: 5px;
+    margin-left: 6px;
+    color: #fff;
+}
+.logo__text{
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #555555;
+}
+.navbar__list{
+    list-style-type: none;
+}
+.navbvar__list--element{
+    display: block;
+    float: left;
+    margin-right: 25px;
+    color: #555555;
+    cursor: pointer;
+}
+.navbvar__list--element:hover{
+    color: black;
+}
+.wrapper{
+    width:100%;
+}
+.section{
+    height: 560px;
+    padding: 100px 260px;
+    
+}
+.first__section{
+    background-image: linear-gradient(rgba(0, 0, 0,.75),rgba(0, 0, 0,.75)),url('img/first_section_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.defheader{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.defheader--light{
+    color: white;
+}
+.first__section--header{
+    font-size: 4.5rem;
+}
+.defsubtitle{
+    color: #c0c0c0;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.first__section--subtitle{
+    color: #c1c1c1;
+    margin-top: 40px;
+}
+.deftext{
+    color: #c0c0c0;
+}
+.defbtn{
+    width: 200px;
+    color: white;
+    background-color: #7cc576;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 17px 10px;
+    display: block;
+    margin: 60px auto;
+    text-decoration: none;
+    text-align: center;
+}
