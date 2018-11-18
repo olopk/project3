@@ -68,7 +68,7 @@ body{
 }
 .section{
     height: 560px;
-    padding: 100px 260px;
+    padding: 100px 200px;
     
 }
 .first__section{
@@ -114,4 +114,28 @@ body{
     margin: 60px auto;
     text-decoration: none;
     text-align: center;
+}
+.second-section{
+    background-color: #fff;
+}
+.services__box{
+    text-align: center;
+    width: 33%;
+    float: left;
+    margin-top: 50px;
+}
+.services__box::after{
+    clear: both;
+}
+.services__box--icon{
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.services__box--header{
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.services__box--text{
+    font-size: 0.9rem;
 }
