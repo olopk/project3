@@ -9,14 +9,14 @@
 html{
     height: 100%;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;  
 }
 body{
     position: absolute;
-    top: 0;
+    /* top: 0;
     bottom: 0;
-    left: 0;
+    left: 0; */
     right: -17px;
     overflow-y: scroll;
 }
@@ -100,6 +100,7 @@ body{
     margin-top: 40px;
 }
 .deftext{
+    font-family: 'Roboto Slab', serif;
     color: #c0c0c0;
 }
 .defbtn{
@@ -120,7 +121,9 @@ body{
 }
 .services__box{
     text-align: center;
-    width: 33%;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
     float: left;
     margin-top: 50px;
 }
@@ -145,21 +148,46 @@ body{
     background-repeat: no-repeat;
     padding: 0px;
 }
-.third__section--left{
-    height: 100%;
-    width: 35%;
+.third__section--left, .third__section--right{
     float: left;
-    background-image: url('img/third_section_bg.png');
+    height: 100%;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: -200%;
+}
+.third__section--left::after, .third__section--right::after{
+    clear: both;
+}
+.third__section--left{
+    width: 35%;
+    background-image: url('img/third_section_bg.png');
+    background-size: ;
+    background-position: 500% 50%;
     padding-top: 100px;
 }
 .third__section--right{
     background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url('img/third_section_section_bg.png');
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
     width: 65%;
-    float: left;
+    padding: 100px 50px 100px 100px;    
+}
+.third__section--header, .third__section--text{
+    text-align: left;
+    margin-bottom: 30px;
+}
+.third__section--checkbox{
+    float: left;   
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #cccccc;
+}
+.third__section--checkbox i{
+    font-size: 1rem;
+    margin: 7px;
+    color: #cccccc;
+}
+.third__section--group{
+    margin-bottom: 20px;
+}
+.third__section--group p{
+    line-height: 30px;
 }
