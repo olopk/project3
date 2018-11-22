@@ -91,7 +91,7 @@ body{
     font-size: 4.5rem;
 }
 .defsubtitle{
-    color: #c0c0c0;
+    color: #777;
     font-size: 1.4rem;
     text-align: center;
 }
@@ -167,27 +167,80 @@ body{
     background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url('img/third_section_section_bg.png');
     background-size: cover;
     width: 65%;
-    padding: 100px 50px 100px 100px;    
+    padding: 80px 50px 80px 100px;    
 }
 .third__section--header, .third__section--text{
     text-align: left;
     margin-bottom: 30px;
 }
-.third__section--checkbox{
-    float: left;   
+.third__section--text{
+    color: #777777;
+}
+.roundbox{
+    float: left;  
+    margin-right: 20px;
+    border: 1px solid #cccccc;
     width: 30px;
     height: 30px;
-    border-radius: 15px;
-    border: 1px solid #cccccc;
 }
-.third__section--checkbox i{
+.third__section--roundbox{
+   border-radius: 15px;
+}
+.third__section--roundbox i{
     font-size: 1rem;
     margin: 7px;
     color: #cccccc;
 }
 .third__section--group{
+    margin-bottom: 5px;
+}
+.third__section--text-small{
+    line-height: 30px;
+    margin: 10px;
+    color: #cccccc;
+}
+.third__section--btn{
+    margin: 40px 0px;
+    width: 160px;
+}
+.fourth__section{
+    background-image: url('img/four_section_ipad.png');
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 820px;;
+}
+.fourth__section h2{
+    margin-top: 100px;
+}
+.fourth__section h2, .fourth__section h3{
+    margin-bottom: 20px;
+    width: 50%;
+}
+.fourth__section--smallheader{
+    color: black;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.fourth__section--text{
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+    color: #777777;
+}
+.fourth__section--group{
+    height: 70px;
     margin-bottom: 20px;
 }
-.third__section--group p{
-    line-height: 30px;
+.fourth__section--roundbox{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    border-color: black;
+}
+.fourth__section--roundbox i{
+    font-size: 40px;
+    margin: 12px;
+}
+.fourth__section--group .fourth__section--smallheader{
+    padding-top:10px;
 }
