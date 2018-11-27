@@ -217,7 +217,7 @@ body{
     margin-bottom: 20px;
     width: 50%;
 }
-.fourth__section--smallheader{
+.smallheader{
     color: black;
     font-size: 1.1rem;
     font-weight: bold;
@@ -259,5 +259,52 @@ body{
     font-weight: bold;
 }
 .fifth__section{
-    background-color: #e9e9e9; 
+    background-color: #f9f9f9   ; 
+}
+.fifth__section--boxes{
+    width: 845px;
+    height: 85px;
+    margin: 80px auto 20px auto;
+}
+.fifth__section--roundbox{
+    width: 85px;
+    height: 100%;
+    border: 3px solid #777777;
+    border-radius: 43px;
+    margin: 0px 40px 0px 40px;
+    float: left;
+}
+.fifth__section--roundbox i{
+    font-size: 2.5rem;
+    margin: 18px;
+    color: #777777;
+}
+.fifth__section--roundbox .first-icon{
+    margin-left: 22px;
+}
+.fifth__section--roundbox .second-icon{
+    font-size: 2.2rem;
+    margin-left: 16px;
+}
+.fifth__section--line{
+    width: 170px;
+    height: 50%;
+    border-bottom: 3px solid #777777;
+    float: left;
+}
+.fifth__section--text-group{
+    width: 30%;
+    text-align: center;
+    float: left;
+}
+.first--text-group{
+    margin-left: 2%;
+}
+.second--text-group{
+    margin: 0px 3%;
+}
+.fifth__section--text{
+    text-align: center;
+    font-size: 0.9rem;
+    padding-top: 10px;
 }
