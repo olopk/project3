@@ -238,9 +238,26 @@ body{
     border-color: black;
 }
 .fourth__section--roundbox i{
-    font-size: 40px;
-    margin: 12px;
+    font-size: 35px;
+    margin: 15px;
+}
+.fourth__section .fourth__section--group:nth-of-type(1) .fourth__section--roundbox i{
+    margin: 15px;
+}
+.fourth__section .fourth__section--group:nth-of-type(2) .fourth__section--roundbox i{
+    margin: 15px 15px 15px 13px;
+}
+.fourth__section .fourth__section--group:nth-of-type(3) .fourth__section--roundbox i{
+    margin: 15px 15px 15px 20px;
 }
 .fourth__section--group .fourth__section--smallheader{
-    padding-top:10px;
+    padding-top:15px;
+}
+.fourth__section--p{
+    color: #7cc576;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.fifth__section{
+    background-color: #e9e9e9; 
 }
