@@ -308,3 +308,67 @@ body{
     font-size: 0.9rem;
     padding-top: 10px;
 }
+.section-six{
+    height: 810px;
+}
+.section-six__element{
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 940px;
+
+}
+.section-six__circle, .section-six__quote{
+    background-color: #f9f9f9;
+    float: left;
+}
+.section-six__circle{
+    width: 210px;
+    height: 100%;
+    border-radius: 105px;
+}
+.section-six__quote{
+    width: 640px;
+    margin: 20px 40px 20px 40px;
+    height: 170px;
+    padding: 40px;
+    color: #777777;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.section-six__text--green{
+    color: #7cc576;
+    font-size: 1.1rem;
+    padding-top: 20px;
+}
+.section-seven{
+    height: 250px;
+    background-color: #7cc576;
+    padding-top: 70px;
+}
+.section-seven__header{
+    color: #fff;
+}
+.section-seven__btn{
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+.section-eight{
+    height: 165px;
+    padding-top: 60px;
+}
+.section-eight__element{
+    padding: 0px 20px;
+    float: left;
+    width: 25%;
+}
+.section-eight__logo{
+    display: block;
+    margin: 0px auto;
+}
+.section-nine{
+    height: 360px;
+    background-color: #222222; 
+}
