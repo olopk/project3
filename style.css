@@ -371,4 +371,79 @@ body{
 .section-nine{
     height: 360px;
     background-color: #222222; 
+    color: #fff;
+    padding: 50px 150px;
+}
+.section-nine__element{
+    margin-bottom: 15px;
+}
+.section-nine__block{
+    width: 33%;
+    float: left;
+}
+.section-nine__smheader{
+    font-size: 1.1rem; 
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-nine__icon{
+    width: 8%;
+    margin-right: 5%;
+    font-size: 1.7rem;
+    float: left;
+    text-align: center;
+}
+.section-nine__icon--map{
+    min-height: 3.3rem;
+}
+.section-nine__icon--tweet{
+    min-height: 5rem;
+    padding-top: 3px;
+}
+.section-nine__info{
+    padding-top: .3rem;
+    width: 80%;
+    font-size: .9rem;
+}
+.section-nine__info--shorter{
+    width: 50%;
+    margin-right: 30%;
+    padding-top: 0px;
+}
+.section-nine__info--tags{
+    font-weight: bold;
+}
+.section-nine__info--time{
+    font-size: 0.6rem;
+}
+.footer{
+    background-color: #fff;
+    height: 100px;
+    padding: 20px 150px;   
+}
+.footer__element{
+    width: 33%;
+    float: left;
+}
+.footer__text{
+    color: #555555;
+    padding-top: 11px;
+}
+.footer__container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 40px;
+}
+.footer__socialmedia{
+    width: 40px;
+    height: 40px;
+    margin: 0px 5px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #000;
+    float: left;
+    color: white;
+    font-size: 1.1rem;
 }
