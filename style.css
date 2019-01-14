@@ -30,7 +30,7 @@ body{
     width: 50%;
     float: left;
 }
-.logo__icon-bg{
+.logo__icon{
     background-color: #7cc576;
     width: 25px;
     height: 25px;
@@ -38,7 +38,7 @@ body{
     float: left;
     margin-left: 30%;
 }
-.logo__icon-bg i{
+.logo__icon i{
     font-size: 15px;
     margin-top: 5px;
     margin-left: 6px;
@@ -71,7 +71,7 @@ body{
     padding: 100px 200px;
     
 }
-.first__section{
+.section-one{
     background-image: linear-gradient(rgba(0, 0, 0,.75),rgba(0, 0, 0,.75)),url('img/first_section_bg.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -87,7 +87,7 @@ body{
 .defheader--light{
     color: white;
 }
-.first__section--header{
+.section-one__header{
     font-size: 4.5rem;
 }
 .defsubtitle{
@@ -95,7 +95,7 @@ body{
     font-size: 1.4rem;
     text-align: center;
 }
-.first__section--subtitle{
+.section-one__subtitle{
     color: #c1c1c1;
     margin-top: 40px;
 }
@@ -116,10 +116,10 @@ body{
     text-decoration: none;
     text-align: center;
 }
-.second-section{
+.section-two{
     background-color: #fff;
 }
-.services__box{
+.section-two__box{
     text-align: center;
     width: 31%;
     margin-left: 1%;
@@ -127,53 +127,53 @@ body{
     float: left;
     margin-top: 50px;
 }
-.services__box::after{
+.section-two__box::after{
     clear: both;
 }
-.services__box--icon{
+.section-two__box--icon{
     font-size: 3rem;
     margin-top: 30px;
     margin-bottom: 40px;
 }
-.services__box--header{
+.section-two__box--header{
     font-size: 1.1rem;
     margin-bottom: 20px;
 }
-.services__box--text{
+.section-two__box--text{
     font-size: 0.9rem;
 }
-.third__section{
+.section-three{
     background-color: #e9e9e9;
     background-size: contain;
     background-repeat: no-repeat;
     padding: 0px;
 }
-.third__section--left, .third__section--right{
+.section-three__col--left, .section-three__col--right{
     float: left;
     height: 100%;
     background-repeat: no-repeat;
 }
-.third__section--left::after, .third__section--right::after{
+.section-three__col--left::after, .section-three__col--right::after{
     clear: both;
 }
-.third__section--left{
+.section-three__col-left{
     width: 35%;
     background-image: url('img/third_section_bg.png');
     background-size: ;
     background-position: 500% 50%;
     padding-top: 100px;
 }
-.third__section--right{
+.section-three__col-right{
     background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url('img/third_section_section_bg.png');
     background-size: cover;
     width: 65%;
     padding: 80px 50px 80px 100px;    
 }
-.third__section--header, .third__section--text{
+.section-three__header, .section-three__subtittle{
     text-align: left;
     margin-bottom: 30px;
 }
-.third__section--text{
+.section-three__subtittle{
     color: #777777;
 }
 .roundbox{
@@ -183,37 +183,37 @@ body{
     width: 30px;
     height: 30px;
 }
-.third__section--roundbox{
+.section-three__roundbox{
    border-radius: 15px;
 }
-.third__section--roundbox i{
+.section-three__roundbox i{
     font-size: 1rem;
     margin: 7px;
     color: #cccccc;
 }
-.third__section--group{
+.section-three__group{
     margin-bottom: 5px;
 }
-.third__section--text-small{
+.section-three__span{
     line-height: 30px;
     margin: 10px;
     color: #cccccc;
 }
-.third__section--btn{
+.section-three__btn{
     margin: 40px 0px;
     width: 160px;
 }
-.fourth__section{
+.section-four{
     background-image: url('img/four_section_ipad.png');
     background-size: 50%;
     background-repeat: no-repeat;
     background-position: right center;
     height: 820px;;
 }
-.fourth__section h2{
+.section-four h2{
     margin-top: 100px;
 }
-.fourth__section h2, .fourth__section h3{
+.section-four h2, .section-four h3{
     margin-bottom: 20px;
     width: 50%;
 }
@@ -222,51 +222,51 @@ body{
     font-size: 1.1rem;
     font-weight: bold;
 }
-.fourth__section--text{
+.section-four__text{
     font-family: 'Roboto Slab', serif;
     font-size: 1rem;
     color: #777777;
 }
-.fourth__section--group{
+.section-four__group{
     height: 70px;
     margin-bottom: 20px;
 }
-.fourth__section--roundbox{
+.section-four__roundbox{
     width: 70px;
     height: 70px;
     border-radius: 35px;
     border-color: black;
 }
-.fourth__section--roundbox i{
+.section-four__roundbox i{
     font-size: 35px;
     margin: 15px;
 }
-.fourth__section .fourth__section--group:nth-of-type(1) .fourth__section--roundbox i{
+.section-four .section-four__group:nth-of-type(1) .section-four__roundbox i{
     margin: 15px;
 }
-.fourth__section .fourth__section--group:nth-of-type(2) .fourth__section--roundbox i{
+.section-four .section-four__group:nth-of-type(2) .section-four__roundbox i{
     margin: 15px 15px 15px 13px;
 }
-.fourth__section .fourth__section--group:nth-of-type(3) .fourth__section--roundbox i{
+.section-four .section-four__group:nth-of-type(3) .section-four__roundbox i{
     margin: 15px 15px 15px 20px;
 }
-.fourth__section--group .fourth__section--smallheader{
+.section-four__group .section-four--smallheader{
     padding-top:15px;
 }
-.fourth__section--p{
+.section-four__p{
     color: #7cc576;
     padding-top: 20px;
     font-weight: bold;
 }
-.fifth__section{
+.section-five{
     background-color: #f9f9f9   ; 
 }
-.fifth__section--boxes{
+.section-five--boxes{
     width: 845px;
     height: 85px;
     margin: 80px auto 20px auto;
 }
-.fifth__section--roundbox{
+.section-five--roundbox{
     width: 85px;
     height: 100%;
     border: 3px solid #777777;
@@ -274,25 +274,25 @@ body{
     margin: 0px 40px 0px 40px;
     float: left;
 }
-.fifth__section--roundbox i{
+.section-five--roundbox i{
     font-size: 2.5rem;
     margin: 18px;
     color: #777777;
 }
-.fifth__section--roundbox .first-icon{
+.section-five--roundbox .first-icon{
     margin-left: 22px;
 }
-.fifth__section--roundbox .second-icon{
+.section-five--roundbox .second-icon{
     font-size: 2.2rem;
     margin-left: 16px;
 }
-.fifth__section--line{
+.section-five--line{
     width: 170px;
     height: 50%;
     border-bottom: 3px solid #777777;
     float: left;
 }
-.fifth__section--text-group{
+.section-five--text-group{
     width: 30%;
     text-align: center;
     float: left;
@@ -303,7 +303,7 @@ body{
 .second--text-group{
     margin: 0px 3%;
 }
-.fifth__section--text{
+.section-five--text{
     text-align: center;
     font-size: 0.9rem;
     padding-top: 10px;
