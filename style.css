@@ -148,20 +148,19 @@ body{
     background-repeat: no-repeat;
     padding: 0px;
 }
-.section-three__col--left, .section-three__col--right{
+.section-three__col-left, .section-three__col-right{
     float: left;
     height: 100%;
     background-repeat: no-repeat;
 }
-.section-three__col--left::after, .section-three__col--right::after{
+.section-three__col-left::after, .section-three__col-right::after{
     clear: both;
 }
 .section-three__col-left{
     width: 35%;
-    background-image: url('img/third_section_bg.png');
-    background-size: ;
-    background-position: 500% 50%;
-    padding-top: 100px;
+    background-image: url('img/section-three__col-leftBG.png');    
+    padding-top: 50px;
+    background-position: center right;
 }
 .section-three__col-right{
     background-image: linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),url('img/third_section_section_bg.png');
