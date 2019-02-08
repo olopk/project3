@@ -5,6 +5,10 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
 html{
     height: 100%;
@@ -53,14 +57,18 @@ body{
 .navbar__list{
     list-style-type: none;
 }
-.navbvar__list--element{
+.navbar__list li{
     display: block;
     float: left;
     margin-right: 25px;
-    color: #555555;
     cursor: pointer;
+    transition: 0.5s ease-in-out;
 }
-.navbvar__list--element:hover{
+.navbvar__list--element{
+    color: #555555;
+    transition: 0.5s ease-in-out;
+}
+.navbvar__list--element:hover, .navbvar__list--element:active{
     color: black;
 }
 .wrapper{
@@ -115,6 +123,10 @@ body{
     margin: 60px auto;
     text-decoration: none;
     text-align: center;
+    transition: 0.7s ease-in-out;
+}
+.defbtn:hover{
+    background-color: #56c94c;
 }
 .section-two{
     background-color: #fff;
@@ -130,6 +142,23 @@ body{
 .section-two__box::after{
     clear: both;
 }
+.slideoff{ visibility: hidden; }
+.slideon{
+    animation-name: slide;
+    animation-duration: 1s;
+    visibility: visible;
+}
+@keyframes slide{
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
 .section-two__box--icon{
     font-size: 3rem;
     margin-top: 30px;
