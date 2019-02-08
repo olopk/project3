@@ -1,4 +1,10 @@
 $(document).ready(function(){
+
+    
+
+
+
+
     $(window).scroll(function(){
         $(".slideoff").each(function(){
             var elpos = $(this).offset().top;
