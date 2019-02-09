@@ -475,3 +475,16 @@ body{
     color: white;
     font-size: 1.1rem;
 }
+.footer_wrapper{
+    width: 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.scrollup{
+    font-size: 40px;
+    color: #7cc576;
+    transition: color 0.5s ease-in-out;
+}
+.scrollup:hover{
+    color: #4cc041;
+}
