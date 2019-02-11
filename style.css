@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    border: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
@@ -11,20 +12,6 @@ a{
     color: black;
 }
 
-html{
-    height: 100%;
-    width: 100%;
-    /* overflow: hidden; */
-    position: relative;  
-}
-body{
-    position: absolute;
-    /* top: 0;
-    bottom: 0;
-    left: 0; */
-    right: -17px;
-    overflow-y: scroll;
-}
 .navbar{
     width: 100vw;
     position: fixed;
@@ -87,6 +74,7 @@ body{
     width:100%;
 }
 .section{
+    width: 100vw;
     height: 560px;
     padding: 140px 200px 100px 200px;
     
@@ -501,21 +489,7 @@ body{
     color: #4cc041;
 }
 @media (max-width: 1200px) {
-    .section{
-        padding: 140px 100px 100px 100px;
-    }
-    .section-three{
-        padding: 0px;
-    }
-    .section-seven{
-        padding: 80px;
-    }
-    .section-eight{
-        padding: 70px;
-    }
-    .section-nine{
-        padding: 50px 10px 20px 110px;
-    }
+   
 }
 @media (max-width: 992px) {
     .logo{
@@ -567,5 +541,15 @@ body{
         font-size: 1.5rem;
     }
 
+    .section-five--line{
+        display:none;
+    }
+
+    .section-five--boxes{
+        width: 100%;
+    }
+    .section-five--roundbox{
+        margin: 0px 65px;
+    }
 
 }
