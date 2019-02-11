@@ -1,15 +1,24 @@
 $(document).ready(function(){
 
-    
 
 
-
+    $(".navbvar__list--element, .footer_wrapper a[href='#home']").on('click', function(element){
+        if (this.hash !== ""){
+            element.preventDefault();
+            var hash = this.hash;
+            $("html, body").animate({
+                scrollTop: $(hash).offset().top
+            }, 1900);
+        }
+    });
 
     $(window).scroll(function(){
+
+        var winpos = $(window).scrollTop();
+        
         $(".slideoff").each(function(){
             var elpos = $(this).offset().top;
-            var winpos = $(window).scrollTop();
-
+    
             if( elpos < winpos + 600){
                 $(this).addClass('slideon');
             }
@@ -17,5 +26,12 @@ $(document).ready(function(){
                 $(this).removeClass('slideon');
             }
         });
+
+        if(winpos > 10){
+            $(".navbar").addClass("navbar--scrolled");
+        }
+        else{
+            $(".navbar").removeClass("navbar--scrolled");
+        }
     });    
 });
