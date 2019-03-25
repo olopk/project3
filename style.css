@@ -488,9 +488,6 @@ a{
 .scrollup:hover{
     color: #4cc041;
 }
-@media (max-width: 1200px) {
-   
-}
 @media (max-width: 992px) {
     .logo{
         width: 40%;
@@ -540,16 +537,63 @@ a{
     .logo__text {
         font-size: 1.5rem;
     }
-
+    .section-one__header {
+        font-size: 4rem;
+        margin-top: 20px;
+    }
+    .section-three__col-left{
+        display: none;
+    }
+    .section-three__col-right{
+        width: 100%;
+        padding-top: 60px;
+    }
+    .section-four {
+        padding: 80px 80px;
+    }
     .section-five--line{
         display:none;
     }
 
     .section-five--boxes{
         width: 100%;
+        margin-top: 40px;
     }
     .section-five--roundbox{
         margin: 0px 65px;
     }
+    .section-six__element{
+        height: 150px;
+        width: 100%;
+    }
+    .section-six__circle{
+        width: 150px;
+        margin-top: 10px;
+    }
+    .section-six__quote{
+        width: 73%;
+        margin: 0px 10px 55px 10px;
+    }
+    .section-eight {
+        padding: 55px 5px;
+    }
+    .section-nine {
+        padding: 20px 0px 20px 40px;
+    }
+    .section-nine__icon--tweet {
+        min-height: 7.2rem;
+    }
+    .section-nine__icon {
+        width: 10%;
+    }
+    .section-nine__info {
+        font-size: .88rem;
+    }
+    .footer {
+        background-color: #fff;
+        height: 100px;
+        padding: 25px 50px;
+    }
+
 
 }
