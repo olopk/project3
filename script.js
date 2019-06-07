@@ -33,5 +33,15 @@ $(document).ready(function(){
         else{
             $(".navbar").removeClass("navbar--scrolled");
         }
-    });    
+    });  
+    
+    $(".burger--menu").on('click', ()=>{
+        $(".navbar").toggleClass("navbar--clicked");
+        if($(".navbar").hasClass("navbar--clicked")){
+            $(".navbar__list").css("display","block");
+        }
+        else{
+            $(".navbar__list").css("display","none");
+        }
+    })
 });
