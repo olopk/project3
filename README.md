@@ -1,2 +1,2 @@
 "# project3" 
-Zmiany nowe
+Zmiany nowe .
